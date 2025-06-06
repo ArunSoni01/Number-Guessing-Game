@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Guess {
     // Update the Method to run the guessing game
     public void runGuess() {
-        RamdomNumber rm = new RamdomNumber();
+        RandomNumber rm = new RandomNumber();
         int secretNumber = rm.getRandomNumber();
         int userGuess;
         String hint;
