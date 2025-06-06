@@ -1,8 +1,14 @@
 import java.util.Random;
 
-public class RamdomNumber {
-    public int getRandomNumber() {
+public class RandomNumber {
+    private int number;
+
+    public RandomNumber() {
         Random rand = new Random();
-        return rand.nextInt(100) + 1;
+        this.number = rand.nextInt(100) + 1; // 1 to 100
+    }
+
+    public int getRandomNumber() {
+        return this.number;
     }
 }
