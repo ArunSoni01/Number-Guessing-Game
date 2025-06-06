@@ -8,5 +8,4 @@ public class Hint {
             return "Hot";
         }
     }
-    
 }
